@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paz IA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Paz IA</h1>
+    <nav>
+      <a href="#sobre">Sobre Paz IA</a>
+      <a href="#biblioteca">Biblioteca</a>
+      <a href="#frase">Frase del Día</a>
+      <a href="https://wa.me/ais/2612472575767171?s=5" target="_blank">Hablar con la IA</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenida a Paz IA</h2>
+      <p>Un espacio de psicología, amor propio y empatía. Sin juicios. Sin presiones. Con vos.</p>
+    </section>
+
+    <section id="sobre">
+      <h2>¿Qué es Paz IA?</h2>
+      <p>Un sitio donde podés encontrar materiales de psicología, frases para el alma y la posibilidad de hablar con una IA empática y sin prejuicios.</p>
+    </section>
+
+    <section id="biblioteca">
+      <h2>Biblioteca emocional</h2>
+      <p><a href="https://drive.google.com/drive/folders/1sgocyczYYpGrYY8CACyj-tqmma5gf_Wl" target="_blank">Entrar a la carpeta de materiales</a></p>
+    </section>
+
+    <section id="frase">
+      <h2>Frase del día</h2>
+      <p id="frase-dia"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con 💜 por Lucía Abril</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
